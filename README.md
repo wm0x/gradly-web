@@ -7,7 +7,7 @@
 **All Graduation Projects In One Place**  
 Browse – Search – Submit – Preserve every great academic idea.
 
-![Gradly Banner]((https://i.ibb.co/Jj8n1zZP/image.png))
+![Gradly Banner]([https://i.ibb.co/Jj8n1zZP/image.png])
 
 ## 🌟 About Gradly
 
@@ -27,7 +27,7 @@ Gradly is a centralized platform designed to:
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Next.js 13 (App Router), React 18, TypeScript
+- **Frontend**: Next.js 15 (App Router), React 18, TypeScript
 - **Styling**: Tailwind CSS, Geist Font (Vercel's font family)
 - **Deployment**: Vercel
 - [Add any other technologies you're using]
