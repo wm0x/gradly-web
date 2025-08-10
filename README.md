@@ -7,7 +7,9 @@
 **All Graduation Projects In One Place**  
 Browse – Search – Submit – Preserve every great academic idea.
 
-![Gradly Banner](https://i.ibb.co/Jj8n1zZP/image.png)
+<div align="center">
+  <img src="https://i.ibb.co/Jj8n1zZP/image.png" alt="Gradly Banner" width="80%">
+</div>
 
 ## 🌟 About Gradly
 
@@ -28,12 +30,8 @@ Gradly is a centralized platform designed to:
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js 15 (App Router), React 18, TypeScript
-- **Styling**: Tailwind CSS, farmer-motion
+- **Styling**: Tailwind CSS, Framer Motion
 - **Deployment**: Vercel
-
-## 🏁 Getting Started
-
-### Prerequisites
-- Node.js 18+
-- npm/yarn/pnpm
+- **Database**: Neon , Supabase
+- **Authentication**: auth.js
 
