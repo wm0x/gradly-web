@@ -1,13 +1,13 @@
 # Gradly - The Ultimate Graduation Project Platform 🎓
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Next.js](https://img.shields.io/badge/Next.js-13.4+-000000?logo=next.js)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.4+-000000?logo=next.js)](https://nextjs.org/)
 [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?logo=vercel)](https://vercel.com)
 
 **All Graduation Projects In One Place**  
 Browse – Search – Submit – Preserve every great academic idea.
 
-![Gradly Banner]([https://i.ibb.co/Jj8n1zZP/image.png])
+![Gradly Banner](https://i.ibb.co/Jj8n1zZP/image.png)
 
 ## 🌟 About Gradly
 
@@ -28,9 +28,8 @@ Gradly is a centralized platform designed to:
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js 15 (App Router), React 18, TypeScript
-- **Styling**: Tailwind CSS, Geist Font (Vercel's font family)
+- **Styling**: Tailwind CSS, farmer-motion
 - **Deployment**: Vercel
-- [Add any other technologies you're using]
 
 ## 🏁 Getting Started
 
