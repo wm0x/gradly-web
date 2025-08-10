@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+  binaryTargets = ["native", "linux-musl", "rhel-openssl-3.0.x"] 
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  username      String    @unique
+  email         String    @unique
+  password_hash String
+  createdAt     DateTime  @default(now())
+  updateAt      DateTime  @updatedAt
+  Project       Project[]
+}
+
+model Project {
+  id             String   @id @default(cuid())
+  title          String
+  description    String
+  status         String
+  finalReportUrl String
+  coverImageUrl  String?
+  userId         String
+  createdAt      DateTime @default(now())
+  user           User     @relation(fields: [userId], references: [id])
+
+  @@map("projects")
+}
