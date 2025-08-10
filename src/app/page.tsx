@@ -46,7 +46,7 @@ export default function home() {
       <div id="why-grads" className="scroll-mt-32">
         <BentoDemo />
       </div>
-      <footer className="p-32">
+      <footer className="p-16 md:p-32">
         <Footer />
       </footer>
     </div>

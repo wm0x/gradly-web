@@ -114,7 +114,7 @@ export function BentoDemo() {
           </p>
         </motion.div>
       </div>
-      <BentoGrid className="lg:grid-rows-3 h-full px-32 pb-32">
+      <BentoGrid className="lg:grid-rows-3 h-full px-4 md:px-32 pb-32">
         {features.map((feature) => (
           <BentoCard key={feature.name} {...feature} />
         ))}
